@@ -3,7 +3,7 @@ program_running = True
 while program_running:
     program_input = input("Terminate the program: [Y]/[N]")
     if program_input.lower() == "y":
-        print("Program terminated.")
+        print(f"{program_input}, Terminating...")
         program_running = False
         break
 
